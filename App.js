@@ -10,7 +10,7 @@ export default function App() {
       <VideoPlayer
         videoProps={{
           source: {
-            uri: 'https://myplaceonline.com/frontend/BigBuckBunnyCut.mp4',
+            uri: 'http://myplaceonline.com/frontend/BigBuckBunnyCut.mp4',
           },
           resizeMode: Video.RESIZE_MODE_CONTAIN,
           shouldPlay: false,
