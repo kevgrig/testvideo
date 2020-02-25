@@ -26,6 +26,7 @@ export default function App() {
                     height: viewportHeight,
                   }}
                   useNativeControls={true}
+                  onError={(errorStr) => {console.error(errorStr)}}
                 />
             </View>
           );
